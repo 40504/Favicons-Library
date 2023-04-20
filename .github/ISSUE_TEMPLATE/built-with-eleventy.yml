@@ -4,34 +4,26 @@ title: "[Built with Eleventy] I built something!"
 labels: built-with-eleventy
 body:
   - type: input
-    id: url
+    id: domain
     attributes:
-      label: Site URL
+      label: Domain name
       description: The home page of the live web site you built. _[parser:url]_
-      placeholder: e.g. https://www.zachleat.com/
+      placeholder: ex. dropbox.com
     validations:
       required: true
   - type: textarea
     id: tfa
     attributes:
       label: 2FA method
-      description: "Optional: _Leave this empty if you are the only author._ If you are listing one or more other authors, make sure to include yourself in this list! _[parser:usernames]_"
-      placeholder: e.g. totp
+      description: supported 2fa methods
+      placeholder: ex. totp
     validations:
       required: false
   - type: input
     id: documentaion
     attributes:
       label: Documentaion
-      description: "Optional: Open Collective Members can be featured on the [Eleventy Super Professional Business Network](https://www.11ty.dev/super-professional-business-network/). Requires a valid Open Collective Username above._[parser:url]_"
+      description: optinal
       placeholder: e.g. https://help.zachleat.com/security/2fa
-    validations:
-      required: false
-  - type: input
-    id: domain
-    attributes:
-      label: Domain name
-      description: "Optional: The company name used on the [Eleventy Super Professional Business Network](https://www.11ty.dev/super-professional-business-network/)"
-      placeholder: e.g. dropbox.com
     validations:
       required: false
