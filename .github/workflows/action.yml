@@ -3,6 +3,7 @@ on:
   issues:
     types:
       - labeled
+      - edited
 
 jobs:
   create-json-from-issue:
