@@ -1,0 +1,10 @@
+{
+  "Rublon": {
+    "domain": "rublon.com",
+    "documentation": "https://rublon.com/guide/how-to-enroll-a-third-party-authenticator-app/",
+    "tfa": [
+      "totp",
+      "u2f"
+    ]
+  }
+}
