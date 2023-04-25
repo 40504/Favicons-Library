@@ -52,4 +52,4 @@ jobs:
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: look for json file in /files/ directory
+          comment: look for json file in `https://github.com/40504/Icon-Library/tree/master/files/` directory
