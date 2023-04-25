@@ -51,4 +51,5 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v3
         with:
-          comment: look for json file in `/files/` directory
+          issue-number: ${{ github.event.issue.number }}
+          comment: look for json file in /files/ directory
