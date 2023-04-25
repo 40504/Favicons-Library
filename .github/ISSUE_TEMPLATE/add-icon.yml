@@ -8,8 +8,7 @@ body:
     attributes:
       label: Name
       description: Exact service name
-      # placeholder: ex. Dropbox
-      value: Dropbox
+      placeholder: ex. Dropbox
     validations:
       required: true
   - type: input
@@ -17,8 +16,7 @@ body:
     attributes:
       label: Domain
       description: Exact domain name
-      # placeholder: ex. dropbox.com
-      value: dropbox.com
+      placeholder: ex. dropbox.com
     validations:
       required: true
   - type: input
@@ -26,8 +24,7 @@ body:
     attributes:
       label: Documentation
       description: Link to documentation on how to enable 2FA on the site.
-      # placeholder: ex. https://help.dropbox.com/account-access/enable-two-step-verification
-      value: https://help.dropbox.com/account-access/enable-two-step-verification
+      placeholder: ex. https://help.dropbox.com/account-access/enable-two-step-verification
   - type: checkboxes
     id: 2fa_method
     attributes:
