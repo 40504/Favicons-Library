@@ -1,9 +1,0 @@
-{
-  "url": "https://omada.tplinkcloud.com/",
-  "tfa": [
-    "totp"
-  ],
-  "documentaion": "https://www.dropbox.com/features/security",
-  "domain": "dropbox.com",
-  "opened_by": "40504"
-}
