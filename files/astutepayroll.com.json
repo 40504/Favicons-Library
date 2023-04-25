@@ -1,0 +1,9 @@
+{
+  "Astute Payroll": {
+    "domain": "astutepayroll.com",
+    "documentation": "https://astutepayroll.zendesk.com/hc/en-au/articles/360038403572",
+    "tfa": [
+      "totp"
+    ]
+  }
+}
