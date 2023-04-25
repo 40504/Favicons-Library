@@ -1,6 +1,6 @@
 name: Add Icon
 description: Suggest a service that support two-factor authentication (TOTP)
-title: Add TEST
+title: Add [service name]
 labels: json
 body:
   - type: input
