@@ -1,0 +1,9 @@
+{
+  "Breeze": {
+    "domain": "breeze.pm",
+    "documentation": "https://www.breeze.pm/blog/breeze-two-factor-authentication",
+    "tfa": [
+      "totp"
+    ]
+  }
+}
