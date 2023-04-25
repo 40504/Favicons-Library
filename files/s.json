@@ -1,0 +1,9 @@
+{
+  "s": {
+    "domain": "s",
+    "documentation": "s",
+    "tfa": [
+      "totp"
+    ]
+  }
+}
